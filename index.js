@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Bienvenido a Not Intagram v3.0");
+    response.end("Bienvenido a Not Intagram v2.1");
 });
 
 const port = process.env.PORT || 1337;
